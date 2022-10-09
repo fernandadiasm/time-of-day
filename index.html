@@ -6,26 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hora do dia</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bb53047555.js" crossorigin="anonymous"></script>
 </head>
 
 <body onload="carregar()">
     <header>
-        <h1>Hora do dia</h1>
+        <h1 class="title">Hora do dia</h1>
     </header>
-    <section>
-        <div id="msg">
-            Aqui vai aparecer a mensagem
-        </div>
-        <div id="foto">
-            <img id="imagem" src="./img/morning.jpg" alt="foto do dia">
-        </div>
-    </section>
+
+    <div class="container">
+        <section id="sessao">
+            <div id="msg">
+                Aqui vai aparecer a mensagem
+            </div>
+            <div id="foto">
+                <img id="imagem" src="morning.png" alt="foto do dia">
+            </div>
+        </section>
+    </div>
     <footer>
-        <p>&copy; Desenvolvido por Fernanda Dias</p>
+        <div class="container-footer">
+            <!-- <div>
+                <p>&copy; Desenvolvido por Fernanda Dias</p>
+            </div> -->
+            <a 
+            title="GitHub" 
+            target="_blank" 
+            href="https://github.com/fernandadiasm" 
+            class="fa-brands fa-github-alt">
+            </a>
+            <a 
+            title="Linkedin" 
+            target="_blank" 
+            href="https://www.linkedin.com/in/fernandadiasme/"
+            class="fab fa-linkedin">
+            </a>
+            <a 
+            title="CodePen" 
+            target="_blank" 
+            href="hhttps://www.instagram.com/ferandadias"
+            class="fa-brands fa-instagram">
+            </a>
+            <a 
+            title="Free Code Camp" 
+            target="_blank" 
+            href="https://www.freecodecamp.org/fernandadiasm"
+            class="fab fa-free-code-camp">
+            </a>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./assets/src/script.js"></script>
 </body>
 
 </html>
