@@ -7,8 +7,6 @@ function carregar() {
     let min = data.getMinutes()
     msg.innerHTML = `It's ${hora}:${min}.`
 
-    hora = 15
-
     if (hora >= 5 && hora < 12) {
         img.src = './assets/img/morning.png'
         document.body.style.background = '#edd4b7'
