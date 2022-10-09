@@ -11,7 +11,6 @@ function carregar() {
         document.body.style.background = '#edd4b7'
         document.querySelector('section#sessao').style.background = "#f0e9de"
         msg.innerHTML = `Agora são ${hora}:${min} <br>Bom dia!`
-
         msg.style = 'color: #038be1'
 
     } else if (hora >= 12 && hora <= 18) {
