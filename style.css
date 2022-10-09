@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 500px;
+    height: 500px; 
 }
 
 header {
@@ -19,7 +19,8 @@ header {
     font-size: 1.8em;
 }
 
-.container {
+
+.container-sessao {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -80,4 +81,23 @@ a {
 
 a:hover {
     transform: scale(1.1);
+}
+
+
+
+@media (min-width: 370px) and (max-width: 1024px) {
+   .title {
+        display: flex;
+        align-items: flex-end;
+        height: 10vh;
+
+   } 
+
+   .container-sessao {
+    top:50%
+   }
+
+   .container-footer {
+    top: 78%;
+   }
 }
