@@ -1,6 +1,4 @@
 body {
-    background-color: rgb(163, 163, 245);
-    font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -16,7 +14,7 @@ header {
 
 .title {
     font: bold;
-    font-size: 1.8em;
+    font-size: 2.5em;
 }
 
 
@@ -28,12 +26,11 @@ header {
 }
 
 section {
-    background-color: white;
     border-radius: 10px;
     width: 250px;
     height: 300px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
     border: solid 2px white;
     text-align: center;
     padding: 10px;
@@ -42,7 +39,7 @@ section {
 #msg {
     margin-bottom: 10px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 1.3em;
     font-family: 'Lato', sans-serif;
 }
 
@@ -59,7 +56,6 @@ section {
 }
 
 footer {
-    color: white;
     text-align: center;
 }
 
@@ -80,7 +76,7 @@ a {
 }
 
 a:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 
