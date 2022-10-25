@@ -17,9 +17,10 @@
 <br>
 
 ## 👩🏻‍💻 Projeto
-<p>
-Criar um site que informa as horas em tempo real e criar diferentes temas para cada momento do dia (manhã, tarde e noite).
-</p>
+
+- Criar um site que informa as horas em tempo real. 
+- Criar diferentes temas para cada momento do dia (manhã, tarde e noite).
+
 
 [🔗 É possível acessar o site clicando aqui! 💜](https://fernandadiasm.github.io/time-of-day/)
 
